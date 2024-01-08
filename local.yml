@@ -9,10 +9,9 @@
       changed_when: False
 
   tasks:
-    - name: Install htop
+    - name: Install packages
       apt:
         name:
           - htop
           - mc
-
 
