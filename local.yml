@@ -11,5 +11,8 @@
   tasks:
     - name: Install htop
       apt:
-        name: htop
+        name:
+          - htop
+          - mc
+
 
